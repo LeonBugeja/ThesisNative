@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ReactNative",
+    "slug": "ReactNative",
+    "scheme": "acme",
+    "plugins": [
+      "expo-router",
+      "expo-video",
+      "expo-font"
+    ],
+    "ios": {
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION",
+        "NOTIFICATIONS"
+      ]
+    },
+    "notification": {
+      "color": "#000000"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "12d47d8d-7b2c-4280-bbb8-4d2bf88afbb1"
+      }
+    }
+  }
+}
